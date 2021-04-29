@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Tweet\" />
+    <Folder Include="Models\TimeLine\" />
+    <Folder Include="Models\Filter\" />
+    <Folder Include="Models\User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TweetinviAPI" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwistirrerContract\TwistirrerContract.csproj" />
+  </ItemGroup>
+
+</Project>
